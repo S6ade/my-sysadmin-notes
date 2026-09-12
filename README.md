@@ -32,7 +32,7 @@
 
 ## Структура репозитория
 # my-sysadmin-notes/windows-ad
-
+```
 my-sysadmin-notes/
 ├── README.md ← ты здесь: оглавление + прогресс
 ├── windows-ad/
@@ -60,7 +60,7 @@ my-sysadmin-notes/
 ├── windows-ad.md ← вопросы и разборы по AD
 ├── networking.md
 └── linux.md
-
+```
 
 > Папки появляются по мере прохождения тем. В репозитории только то, что реально пройдено.
 
