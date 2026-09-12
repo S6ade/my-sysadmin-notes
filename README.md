@@ -32,3 +32,53 @@
 
 ## Структура репозитория
 # my-sysadmin-notes/windows-ad
+
+my-sysadmin-notes/
+├── README.md ← ты здесь: оглавление + прогресс
+├── windows-ad/
+│ ├── README.md ← теория: AD, DC, DNS, GPO, OU
+│ └── practice/
+│ ├── 01-dc-setup.md ← поднятие контроллера домена
+│ ├── 02-ou-users-groups.md ← OU, пользователи, группы
+│ └── 03-gpo.md ← групповая политика
+├── networking/
+│ ├── README.md ← теория: OSI, TCP/IP, VLAN, NAT, VPN
+│ └── practice/
+│ └── 01-vlan-lab.md
+├── linux-deep/
+│ ├── README.md ← LVM, RAID, systemd
+│ └── practice/
+│ └── 01-lvm-lab.md
+├── databases/
+│ ├── README.md ← SQL, PostgreSQL, бэкапы
+│ └── practice/
+│ └── 01-postgres-backup.md
+├── scripting/
+│ ├── README.md ← Bash/Python: заметки, приёмы
+│ └── scripts/ ← рабочие скрипты
+└── interviews/
+├── windows-ad.md ← вопросы и разборы по AD
+├── networking.md
+└── linux.md
+
+
+> Папки появляются по мере прохождения тем. В репозитории только то, что реально пройдено.
+
+## Формат разделов
+
+**`README.md` темы** — теория:
+1. Зачем это нужно
+2. Ключевые понятия — простыми словами
+3. Как это устроено
+4. Частые вопросы на собесе
+5. Что важно не путать
+
+**`practice/XX-*.md`** — практика:
+1. Задача
+2. Что понадобилось (окружение, ресурсы)
+3. Ход работы — шаги своими словами
+4. Команды / настройки — что реально вводил
+5. Результат
+6. Грабли — где споткнулся, как решил
+
+**`interviews/*.md`** — мини-собесы:
